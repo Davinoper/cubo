@@ -4,8 +4,8 @@ body{
 
 .face{
     display:block;
-    width: 200px;
-    height:200px;
+    width: 400px;
+    height:400px;
     border-radius: 5%;
     position: absolute;
     top:0;
@@ -15,45 +15,45 @@ body{
 
 .frente{
     background-color: red;
-    transform: translateZ(100px) ;
+    transform: translateZ(200px) ;
 }
 
 .direita{
     background-color:blue;
-    transform: translateX(100px) rotateY(90deg);
+    transform: translateX(200px) rotateY(90deg);
     text-align:center;
 }
 
 .esquerda{
     background-color: green;
-    transform: translateZ(0px) translateY(-100px) rotateY(90deg) rotateX(90deg);
+    transform: translateZ(0px) translateY(-200px) rotateY(90deg) rotateX(90deg);
 }
 
 .cima{
     background-color: orange ;
-    transform:translateZ(0px) translateY(100px) rotateY(90deg) rotateX(90deg);
+    transform:translateZ(0px) translateY(200px) rotateY(90deg) rotateX(90deg);
 }
 
 .baixo{
     background-color: yellow;
-    transform:translateZ(0px) translateX(-100px) rotateY(-90deg);
+    transform:translateZ(0px) translateX(-200px) rotateY(-90deg);
 }
 
 .atras{
     background-color: pink;
-    transform:translateZ(-100px) rotateY(180deg);
+    transform:translateZ(-200px) rotateY(180deg);
 }
 
 .cubo{
     transform-style: preserve-3d;
-    width: 200px;
-    height:200px;
+    width: 400px;
+    height:400px;
     position: relative;
     top: 100px;
     left:100px;
     float:center;
-    margin-left: 40%;
-    margin-top: 5%;
+    margin-left: 25%;
+    margin-top: 10%;
     transform: rotateX(10deg) rotateY(10deg);
     
 }
